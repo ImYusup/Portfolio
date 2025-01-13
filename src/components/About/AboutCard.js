@@ -8,36 +8,38 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            Hi Everyone, I am <span className="purple">Yusup Juniadi </span>
+            from <span className="purple"> Bandung, Indonesia.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
+            I am currently freelancer as a software developer.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            I have completed DIV/Bachelor Degree in Telecommunication Engineering at Polytechnic State of Bandung.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Quality Time with Family
+            </li>
+             <li className="about-activity">
+              <ImPointRight /> Playing Chess
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Watching Football
             </li>
-            <li className="about-activity">
+             <li className="about-activity">
               <ImPointRight /> Travelling
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+          <p style={{ color: "rgb(0 117 167)" }}>
+            "Pursue Creating Things That Leave a Mark!"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Yusup</footer>
         </blockquote>
       </Card.Body>
-    </Card>
+    </Card >
   );
 }
 

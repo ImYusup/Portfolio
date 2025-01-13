@@ -2,11 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
@@ -25,10 +22,9 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Interskill"
+              description="Interskill is an online education platform and the first in Indonesia to feature interactive communication capabilities. It provides tools for instructors to engage directly with students through Q&A sessions, discussions, or even direct file sharing. The technology stack includes Node.js, React.js, Firebase, and AWS EC2."
+              ghLink="https://interskill.id"
             />
           </Col>
 
@@ -36,10 +32,9 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="E-Commerce"
+              description="Bangestore is an online e-commerce platform specializing in high-quality imported bags, offering seamless buying and selling features. It supports worldwide shipping with multiple payment options, including PayPal, Credit Card, USDT, and Local Bank Transfer. The platform is powered by WordPress for efficient content management and e-commerce functionality."
+              ghLink="https://bangestore.com"
             />
           </Col>
 
@@ -47,14 +42,13 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Resume"
+              description="I am looking to apply for a remote position, leveraging over 10 years of experience in project delivery and maintenance within the telecommunications industry. I am confident in my ability to meet the qualifications required for this role. This portfolio resume is built using GitHub, HTML, and CSS in web development and attention to detail."
+              ghLink="https://imyusup.github.io/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
@@ -86,7 +80,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
