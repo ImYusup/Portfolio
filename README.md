@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website <br/>
-  <a href="https://yusup.vercel.app/" target="_blank">yusup.io</a>
+  <a href="https://imyusup.vercel.app/" target="_blank">yusup.io</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/readme-img.png" />
@@ -10,7 +10,7 @@
 
 ## Built With
 
-My personal portfolio website is hosted at <a href="https://yusup.vercel.app/" target="_blank">yusup.io</a> It showcases my GitHub projects, highlights my resume, and presents my technical skills.<br/>
+My personal portfolio website is hosted at <a href="https://imyusup.vercel.app/" target="_blank">yusup.io</a> It showcases my GitHub projects, highlights my resume, and presents my technical skills.<br/>
 
 This portfolio was developed using the following technologies:
 
