@@ -32,7 +32,7 @@ function Home2() {
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Blockchain.
+                  Cryptocurrency, Stocks, Commodities.
                 </b>
               </i>
               <br />
@@ -94,7 +94,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              {/* <li className="social-icons">
+              <li className="social-icons">
                 <a
                   href="https://x.com/imyusup_"
                   target="_blank"
@@ -103,9 +103,9 @@ function Home2() {
                 >
                   <AiOutlineTwitter />
                 </a>
-              </li> */}
+              </li>
 
-              {/* <li className="social-icons">
+              <li className="social-icons">
                 <a
                   href="https://www.instagram.com/imyusup/"
                   target="_blank"
@@ -114,7 +114,7 @@ function Home2() {
                 >
                   <AiFillInstagram />
                 </a>
-              </li> */}
+              </li>
             </ul>
           </Col>
         </Row>
