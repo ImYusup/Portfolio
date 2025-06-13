@@ -10,14 +10,17 @@
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
   <title>Yusup | Portfolio</title>
 
-  <!-- ✅ Google / Search Engine Tags -->
+  <!-- ✅ Google Site Verification -->
+  <meta name="google-site-verification" content="tLIZwa9r9NjkQ5jb2vrZle3-BSCCwDgQZrZ3lAZX8uQ" />
+
+  <!-- ✅ SEO Meta Tags -->
   <meta itemprop="name" content="Yusup | Portfolio" />
   <meta itemprop="description" content="Self Developed personal website build with React.js" />
   <meta itemprop="image"
     content="https://raw.githubusercontent.com/ImYusup/Portfolio/main/public/assets/images/your-image.png" />
 
   <!-- ✅ Facebook Open Graph -->
-  <meta property="og:url" content="https://imyusupportfolio.vercel.app" />
+  <meta property="og:url" content="https://imyusup.vercel.app" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Yusup | Portfolio" />
   <meta property="og:description" content="Self Developed personal website build with React.js" />
@@ -34,9 +37,35 @@
   <!-- ✅ Google AdSense -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7448328675787714"
     crossorigin="anonymous"></script>
+
+  <!-- ✅ Google Analytics (GA4) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EHPEMJTZGK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-EHPEMJTZGK');
+  </script>
+
+  <!-- ✅ Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({ 'gtm.start':
+      new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true;
+      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GT-WFMPSV4Z');
+  </script>
 </head>
 
 <body>
+  <!-- ✅ Google Tag Manager noscript -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GT-WFMPSV4Z"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
 </body>
