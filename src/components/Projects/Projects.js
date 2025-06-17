@@ -44,7 +44,7 @@ function Projects() {
             <ProjectCard
               imgPath={jersey}
               isBlog={false}
-              title="E-Commerce Custom Jersey Shop"
+              title="E-Commerce Custom Jersey"
               description="Jerseysports.id is an online e-commerce platform specializing in high-quality custom sports jerseys, offering seamless browsing and ordering features. It supports worldwide shipping with Local Bank Transfer. The platform is powered by WordPress for efficient content management and e-commerce functionality across multiple sports categories." />
           </Col>
 
