@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import interskill from "../../Assets/Projects/interskill.png";
+import interskill from "../../Assets/Projects/webbotpro.png";
 import bangestore from "../../Assets/Projects/bangestore.png";
 import jersey from "../../Assets/Projects/jersey.png";
 import resume from "../../Assets/Projects/resume.png";
@@ -24,9 +24,9 @@ function Projects() {
             <ProjectCard
               imgPath={interskill}
               isBlog={false}
-              title="Interskill"
-              description="Interskill is an online education platform and the first in Indonesia to feature interactive communication capabilities. It provides tools for instructors to engage directly with students through Q&A sessions, discussions, or even direct file sharing. The technology stack includes Node.js, React.js, Firebase, and AWS EC2."
-              ghLink="https://interskill.id"
+              title="Webbotpro"
+              description="WebbotPro is a cutting-edge platform empowering businesses with intelligent automation and digital solutions. It offers seamless integration with Shopify, advanced analytics, and scalable performance. Built with Next.js, Node.js, and Shopify API for efficient, high-performance deployment. The platform streamlines e-commerce tasks with automated."
+              ghLink="https://webbotpro.com"
             />
           </Col>
 
