@@ -2,7 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import interskill from "../../Assets/Projects/webbotpro.png";
+import webbotpro from "../../Assets/Projects/webbotpro.png";
+import webbotprosite from "../../Assets/Projects/webbotpro-site.png";
 import bangestore from "../../Assets/Projects/bangestore.png";
 import jersey from "../../Assets/Projects/jersey.png";
 import resume from "../../Assets/Projects/resume.png";
@@ -22,11 +23,21 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={interskill}
+              imgPath={webbotpro}
               isBlog={false}
               title="Webbotpro"
               description="WebbotPro is a cutting-edge platform empowering businesses with intelligent automation and digital solutions. It offers seamless integration with Shopify, advanced analytics, and scalable performance. Built with Next.js, Node.js, and Shopify API for efficient, high-performance deployment. The platform streamlines e-commerce tasks with automated."
               ghLink="https://webbotpro.com"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={webbotprosite}
+              isBlog={false}
+              title="Webbotpro Site"
+              description="WebBotPro is a modern digital solutions platform that integrates React.js and Midtrans Payment Gateway (Indonesia), empowering businesses to scale online. With a focus on automation, digital marketing, payment solutions, and business intelligence, it provides an all-in-one toolkit for SMEs and enterprises to grow faster and more efficiently."
+              ghLink="https://webbotpro.site"
             />
           </Col>
 
@@ -45,7 +56,9 @@ function Projects() {
               imgPath={jersey}
               isBlog={false}
               title="E-Commerce Custom Jersey"
-              description="Jerseysports.id is an online e-commerce platform specializing in high-quality custom sports jerseys, offering seamless browsing and ordering features. It supports worldwide shipping with Local Bank Transfer. The platform is powered by WordPress for efficient content management and e-commerce functionality across multiple sports categories." />
+              description="Jerseysports.id is an online e-commerce platform specializing in high-quality custom sports jerseys, offering seamless browsing and ordering features. It supports worldwide shipping with Local Bank Transfer. The platform is powered by WordPress for efficient content management and e-commerce functionality across multiple sports categories."
+              ghLink="https://jerseysports.id"
+            />
           </Col>
 
           <Col md={4} className="project-card">
